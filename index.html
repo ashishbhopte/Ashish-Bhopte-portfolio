@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Ashish Bhopte Portfolio</title>
+    <link rel="stylesheet" href="style.css"><!--this will connect html and css file-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--this line for google font -->
+   <link rel="preconnect" href="https://fonts.googleapis.com"><!--this line for google font -->
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--this line for google font -->
+   <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;700&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet"> <!--this line for google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--this line for google font -->
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--this line for google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;700&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet"><!--this line for google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!--this line for google font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--this line for google font -->
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;700&family=Ubuntu&display=swap" rel="stylesheet"><!--this line for google font -->
+
+</head>
+<body>
+<div id="header" class="">
+    <!--<vidio autoplay loop class="back-vidio" muted plays-inline>
+            <source src="images/vidio.mp4" type="vidio/mp4">
+    </vidio>-->
+    <!--<vidio src="images/vidio.mp4" autoplay muted loop></vidio>-->
+    <div class="container">
+        <nav>
+            <img src="images/Site_logo.png" alt="" class="logo" height="100" width="120">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About-Me</a></li>
+                <li><a href="#">Experiences</a></li>
+                <li><a href="#">Education</a></li>
+            </ul>
+        </nav>
+        <div class="header-text-main">
+            <div class="header-text">
+                <h1>Hi, I'M <br> <span>ASHISH BHOPTE</span> <br> From India,  Bengaluru.</h1>
+                <p>"Software Developer/ Engineer".</p>
+            </div>    
+            <div id="top-image">
+                <img src="images/top.png" alt="" height="600px" width="480px">
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+
+<!-------------------About section ----------------->
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/middle.png" alt="" height="570" width="600">
+            </div> 
+            <div class="about-col-2">
+                <h1 class="sub-title">About-Me:</h1>
+                <p class="about-col-2-para"> I am a skilled Software Engineer with expertise in Python, Django web development,
+                    AWS cloud services, and agile methodologies. My experience at TCS includes successfully developing and
+                    implementing solutions for employee management and AWS cloud platforms engineer. I excel in problem-solving,
+                    teamwork, and adapting to new challenges. My technical skills, combined with a proactive approach,
+                    have consistently contributed to the success of the projects I've been involved in.</p>
+                <div class="tag-titles">
+                    <p class="tag-links  active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tag-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tag-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contains active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages:</span><br> </li>
+                        <li>Python, C Programming.<br> </li>
+                        <li><span>Web Development:</span><br> </li>
+                        <li> Django-Framework, HTML5, CSS3.</li>
+                        <li><span>Database: </span><br> </li>
+                        <li>SQL, PostgresSQL.</li>
+                        <li><span>AWS Cloud:</span><br></li>
+                        <li>AWS web services (CLF-C01: AWS cloud practitioner Certified)</li>
+                        <li><span>Agile Tools:</span><br> </li>
+                        <li> Git (push, pull, merge), Jenkins, jira,Confluence,Assyst, Vault.</li>
+                        <li><span>Other skills :</span><br> </li>
+                        <li> Data structure and Algorithm, Basics of Linux Commands.</li>
+                    </ul>
+                </div>
+                <div class="tab-contains" id="experience">
+                    <ul>
+                        <li style="font-size: 22px">TCS | System Engineer | April 2021 to present:</li>
+                        <li><span>1. Web development for TCS internal employee management:
+                            (Django, Python, PostgreSQL, AWS web services, jira tool, agile methodology)</span><br> </li>
+                        <li>Impact of work: We developed a website using django, which helping the management to manage
+                            the employees, and reduces the cost by 20% for their management system.<br> </li>
+                        <li><span>2. AWS Cloud Platform Engineer :
+                        (AWS web services, AMI refresh activity, traffic-switch, destroy job using Jenkins CI/CD pipeline
+                            using blue-green deployment concept, Confluence, vulnerability management)</span><br> </li>
+                        <li> Impact of work: I worked on AMI refresh activity, where we handled vulnerability of our
+                            AWS hosted application</li>
+                        <li><span>3. Lotus Notes application SME : (Run and Maintenance activity like Disaster Recovery,
+                         vulnerability management, Application decommission,Agent management, Automation of Agents and jobs)</span><br> </li>
+                        <li>Impact of work: We have built a agent and automated jobs, which reduces the manual interference
+                            to transfer files between servers using SFTP.</li>
+                    </ul>
+                </div>
+                <div class="tab-contains" id="education">
+                    <ul>
+                        <li><span>Bachelor of Engineering in Information Technology:</span><br> </li>
+                        <li>UIT, BU Bhopal Madhya Pradesh. Grade: A.<br> </li>
+                        <li><span>Higher Secondary Education:</span><br> </li>
+                        <li>SSVM Betul Madhya Pradesh. Grade: A+.</li>
+                        <li><span>Secondary Education: </span><br> </li>
+                        <li>SSVM Betul Madhya Pradesh. Grade: A+.</li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+</div>
+
+<div id="services_and_work">
+    <div class="container">
+        <h1 class="sub-title" style="color: white;">My Services and Work:</h1>
+        <div class="services-list">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     width="30" height="30" viewBox="0 0 30 30"><path fill="currentColor"
+                  d="m12.89 3l1.96.4L11.11 21l-1.96-.4L12.89 3m6.7 9L16 8.41V5.58L22.42 12L16 18.41v-2.83L19.59 12M1.58
+                  12L8 5.58v2.83L4.41 12L8 15.58v2.83L1.58 12Z"/></svg>
+
+                <h1>Web Development</h1>
+                <p>The technologies I used to build the website using Python, Django web framework, HTML, CSS, and the basics of JavaScript.</p>
+                <a href="#">Know More</a>
+            </div>
+
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                      <path stroke-dasharray="16" stroke-dashoffset="16" d="M8 18H7C4.5 18 3 16 3 14C3 12 4.5 10 7 10C8 10 8.5 10.5 8.5 10.5M16 18H17C19.5 18 21 16 21 14C21 12 19.5 10 17 10C16 10 15.5 10.5 15.5 10.5"><animate fill="freeze" attributeName="stroke-dashoffset" dur="0.4s"
+                      values="16;0"/></path><path stroke-dasharray="9" stroke-dashoffset="9" d="M17 10C17 10 17 9.5 17 9C17 6.5 15 4 12 4M7 10V9C7 6.5 9 4 12 4">
+                    <animate fill="freeze" attributeName="stroke-dashoffset" begin="0.5s" dur="0.3s" values="9;0"/></path><path stroke-dasharray="8" stroke-dashoffset="8"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      d="M12 20V14"><animate fill="freeze" attributeName="stroke-dashoffset" begin="0.9s" dur="0.2s" values="8;0"/></path><path stroke-dasharray="4" stroke-dashoffset="4"
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           d="M12 13L14 15M12 13L10 15"><animate fill="freeze" attributeName="stroke-dashoffset" begin="1.1s" dur="0.2s" values="4;0"/></path></g></svg>
+                <h1>Web Hosting</h1>
+                <p> Lorem ipsum dolor sit amet,
+                    consectetur adipisicing elit. Consequatur hic illum inventore minus, mollitia nam nihil repellendus sequi velit voluptatum!
+                </p>
+                <a href="#">Know More</a>
+            </div>
+
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48"><defs><mask id="ipSSeo0">
+                    <g fill="none" stroke-width="4"><rect width="40" height="32" x="4" y="8" fill="#fff" stroke="#fff" rx="1.633"/>
+                        <path stroke="#000" stroke-linecap="round" stroke-linejoin="round" d="M16 18.948c-2-2.948-5.502-1.01-5.251 2.02C11 24 15 24 15.249 27.032C15.5 30.062 12 32 10 29.051M26 18h-4v13h4m-4-6h4"/><rect width="6" height="13" x="32" y="18" stroke="#000"
+                        stroke-linecap="round" stroke-linejoin="round" rx="3"/></g></mask></defs><path fill="currentColor" d="M0 0h48v48H0z" mask="url(#ipSSeo0)"/></svg>
+                <h1>Off Page: SEO</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet consequatur deleniti dolor hic illo
+                    ipsum maxime odit, praesentium ratione sint vitae voluptate. Aspernatur, est!
+                </p>
+                <a href="#">Know More</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script>
+    var tablinks= document.getElementsByClassName("tag-links");
+    var tabcontents= document.getElementsByClassName("tab-contains");
+
+    function opentab(tabname){
+    for(tablink of tablinks){
+      tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+</body>
+
+</html>
