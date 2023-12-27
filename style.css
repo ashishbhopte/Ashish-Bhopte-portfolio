@@ -278,6 +278,7 @@ padding: 3px;
 margin-left: 90px;
 
 }
+
 .services-list div p{
 font-size: 15px;
 }
@@ -439,6 +440,8 @@ nav ul{
  padding-top:50px;
  padding-left: 0px;
  margin-top:0px;
+ z-index:2;
+ transition:right 0.5s;
 }
 
 nav ul li{
@@ -461,6 +464,55 @@ position:absolute;
 top:10px;
 left:42px;
 cursor:pointer;
+}
+/*----------------------------------------About-me --------------------*/
+
+.about-col-1 img{
+  display:none;
+}
+.sub-title{
+ font-size: 28px;
+ font-weight:500;
+ color:#fff;
+ font-family: 'Kanit', sans-serif;
+ font-family: 'Teko', sans-serif;
+ font-family: 'Ubuntu', sans-serif;
+}
+.about-col-2-para{
+  font-size:16px;
+  text-align:justify;
+}
+.tag-links{
+font-size:16px;
+margin-right:35px;
+}
+#services_and_work{
+margin-top:350px;
+margin-bottom:300px;
+}
+#contact{
+margin-top:600px;
+margin-bottom:400px;
+}
+.services-list div a{
+margin-left: 55px;
+}
+
+.services-list{
+margin-top:10px;
+}
+.contant-right form{
+ width:100%;
+ margin-bottom:100px;
+}
+.copyright{
+margin-top:150px;
+}
+.submit-btn{
+margin-top:20px;
+}
+form textarea{
+margin-top:10px;
 }
 
 }

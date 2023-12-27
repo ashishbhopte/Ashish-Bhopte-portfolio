@@ -31,15 +31,14 @@
     <div class="container">
         <nav>
             <img src="images/Site_logo.png" alt="" class="logo" height="100" width="120">
-            <ul>
-                <i class="fa-solid fa-x"></i>
+            <ul id="sidemenu">
+                <i class="fa-solid fa-x" onclick="closemenu()"></i>
                 <li> <span><a href="#">Home</a></span></li>
                 <li><a href="#about">About-Me</a></li>
                 <li><a href="#services_and_work">Services</a></li>
                 <li><a href="#contact">Contact</a></li>
-
             </ul>
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
         </nav>
         <div class="header-text-main">
             <div class="header-text">
@@ -206,7 +205,7 @@
 </div>
 
 
-<!----------- script --------->
+<!----------- script for my skills section  --------->
 <script>
     var tablinks= document.getElementsByClassName("tag-links");
     var tabcontents= document.getElementsByClassName("tab-contains");
@@ -220,6 +219,19 @@
     }
     event.currentTarget.classList.add("active-link");
     document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+ <!-- -&#45;&#45;&#45;&#45;SCRIPT FOR open and close menu&#45;&#45;&#45;&#45;&#45;&#45;&#45;&#45;-->
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+    sidemenu.style.right="0px";
+    }
+    function closemenu(){
+    sidemenu.style.right="-170px";
     }
 
 </script>
