@@ -11,7 +11,6 @@ body{
 #header{
 
  /*This is full top box*/
-  border: 2px solid pink;
   width:100vw;
   height:vh;
   position:relative;
@@ -20,15 +19,12 @@ body{
 
 }
 #top-image{
-
     background repeat: no-repeat;
-    border: 2px solid red;
     display:flex;
 
 }
 .container{
     padding: 5px 10%;
-    border: 2px solid blue;
     width:100%;
     height:100vh;
 }
@@ -39,8 +35,6 @@ nav{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  border: 2px solid blue;
-
 }
 
 .logo{
@@ -99,7 +93,6 @@ width:100%;
   height:100%;
   justify-content: space-between;
   flex-wrap: wrap;*/
-  border: 2px solid white;
   display: flex;
   width:106%;
   justify-content: space-between;
@@ -110,7 +103,6 @@ width:100%;
   margin-top:-20px;
   font-size:25px;
   width:50%;
-  border: 2px solid yellow;
 
 }
 .header-text p{
@@ -119,7 +111,6 @@ width:100%;
   margin-top:10px;
   margin-bottom:0px;
   font-size: 22px;
-  border: 2px solid white;
 }
 .header-text h1{
 font-family: 'Teko', sans-serif;
@@ -128,8 +119,8 @@ font-size:45px;
 margin-top:0px;
 margin-bottom:0%;
 width:100%;
-border: 2px solid red;
 }
+
 .header-text h1 span{
   font-family: 'Teko', sans-serif;
   font-family: 'Ubuntu', sans-serif;
@@ -147,7 +138,6 @@ border: 2px solid red;
 #about{
   padding: 20px 0px;
   color: #ababab;
-  border: 2px solid green;
 }
 .row{
  display:flex;
@@ -171,29 +161,35 @@ border: 2px solid red;
  }
 
 .sub-title{
- font-size: 30px;
+ font-size: 38px;
  font-weight:500;
  color:#fff;
+ font-family: 'Kanit', sans-serif;
+ font-family: 'Teko', sans-serif;
+ font-family: 'Ubuntu', sans-serif;
 }
 .about-col-2-para{
   font-size:21px;
   text-align:justify;
 }
 .tag-titles{
-
 display:flex;
 margin: 0px 0px 0px;
-border: 2px solid yellow;
+
 }
+
 .tag-links{
+ color:#ffff;
  margin-right: 70px;
  font-size: 23px;
  font-width: 500px
  cursor: pointer;
  position:relative;
  border: 2px solid red;
-
+ border-radius: 9px;
+ background-color:#fa0f4b;
 }
+
 .tag-links::after{
   content:'';
   width:0px;
@@ -214,11 +210,9 @@ border: 2px solid yellow;
 display:none;
 list-style:none;
 margin: 0px 0px;
-border: 2px solid yellow;
 }
 .tab-contains ul{
 margin: 0px;
-border: 1px solid pink;
 }
 .tab-contains ul li{
 color:#ffffff;
@@ -236,15 +230,14 @@ display:block;
 }
 /*--------------- services_and_work ------------*/
 #services_and_work{
-border: 2px solid pink;
+
 padding: 30px 0px;
 }
 .services-list{
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 grid-gap: 40px;
-margin-top:50px;
-border: 2px solid red;
+margin-top:100px;
 }
 .services-list div{
 background:#262626;
@@ -252,11 +245,164 @@ padding: 40px;
 font-size:13px;
 font-weight:300px;
 border-radius:10px;
+transition: background 0.5s, transform 0.5s;
+
 }
 .services-list div svg{
 height: 50px;
 width:50px;
 font-size: 50px;
 margin-bottom:30px;
-border: 2px solid red;
+}
+/*.my-services-web{
+border: 2px solid green;
+background:url("images/my-services-web.jpg");
+background-size: cover;
+position: center;
+background-repeat:no-repeat;
+
+}*/
+
+.services-list div a{
+text-decoration:none;
+color:#fff;
+font-size: 15px;
+margin-top: 10px;
+background-color: #fa0f4b;
+border-radius:10px;
+padding: 3px;
+margin-left: 90px;
+
+}
+.services-list div p{
+font-size: 15px;
+}
+
+.services-list div:hover{
+background: #FF4A4A;
+transform: translateY(-10px);
+}
+
+/*----------------------Conact Me------------------*/
+#contact{
+height: 70vh;
+}
+
+.contact-left{
+flex-basis:35%;
+}
+.contact-right{
+flex-basis:60%;
+}
+
+.contact-left p{
+margin: 50px 10px 50px 10px;
+}
+
+.contant-left p i{
+ color:#ff004f;
+ margin-right:15px;
+ font-size: 22px;
+}
+
+.social-icons{
+ margin-top: 70px;
+ margin-bottom:80px;
+}
+.social-icons a{
+ text-decoration:none;
+ font-size:30px;
+ margin-right:33px;
+ color: #ababab;
+ display: inline-block;
+ transition: transform 0.5s;
+}
+.social-icons a:hover{
+ color:#ff004f;
+ transform:translateY(-5px);
+}
+
+.btn{
+ height: 45px;
+ width:100px;
+ background-color: #ff004f;
+ font-size:25px;
+ border-radius: 6px;
+ color: white;
+ transition: all 0.5s ease-in-out;
+ text-decoration:none;
+ padding: 2px;
+ margin-top: 200px;
+}
+.btn:hover{
+ background-color:#9F0100;
+ transform: scale(1);
+ cursor: pointer;
+}
+
+.submit-btn{
+height: 40px;
+width:100px;
+background-color: #ff004f;
+font-size:22px;
+border-radius: 6px;
+color: white;
+}
+.submit-btn:hover{
+ background-color:#9F0100;
+ transform: scale(1);
+ cursor: pointer;
+}
+
+
+.contant-left-p{
+
+margin-top:50px;
+}
+
+.contant-right form{
+ width:100%;
+}
+
+form input, form textarea{
+width:100%;
+border:0;
+outline: none;
+background:#262626;
+padding:15px;
+margin: 15px 0;
+color:#fff;
+font-size: 18px;
+border-radius:6px;
+}
+.copyright{
+width:100%;
+text-align:center;
+padding:25px 0;
+background: #2C2C2C;
+}
+
+/*-------------------------- css for small screen------------------*/
+@media only screen and (max-width: 600px){
+   nav ul li a{
+    font-size: 20px;
+    padding:10px;
+    margin-top: 15px;
+    }
+  nav ul{
+   margin-bottom:-8px;
+    }
+  .header-text h1{
+  margin-top: -60px;
+  font-size:30px;
+  }
+ .header-text h1 span{
+  font-size:30px;
+ }
+ #top-image{
+
+ }
+ .header-text{
+  width:0%;
+ }
 }
