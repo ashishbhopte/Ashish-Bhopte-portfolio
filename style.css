@@ -8,6 +8,11 @@ body{
    background: #080808;
    color: #fff;
    }
+
+html{
+scroll-behavior:smooth;
+}
+
 #header{
 
  /*This is full top box*/
@@ -35,7 +40,7 @@ body{
 
 nav{
   display: flex;
-  width:106%;
+  width:100%;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -367,6 +372,7 @@ margin-top:50px;
 
 .contant-right form{
  width:100%;
+ margin-bottom:40px;
 }
 
 form input, form textarea{
@@ -386,13 +392,16 @@ text-align:center;
 padding:25px 0;
 background: #2C2C2C;
 }
-
-/*-------------------------- css for small screen------------------*/
-
-nav .fa-solid{
-display:none;
+#msg{
+color: #04FF60;
+display:block;
 }
 
+/*-------------------------- css for small screen, mobile compitable ------------------*/
+
+nav .fa-solid{ /*this is to hide mid photo*/
+display:none;
+}
 
 @media only screen and (max-width: 600px){
    nav ul li a{
@@ -465,7 +474,7 @@ top:10px;
 left:42px;
 cursor:pointer;
 }
-/*----------------------------------------About-me --------------------*/
+/*---------About-me for small screen  --------------------*/
 
 .about-col-1 img{
   display:none;
@@ -513,6 +522,10 @@ margin-top:20px;
 }
 form textarea{
 margin-top:10px;
+}
+#msg{
+color: #04FF60;
+display:block;
 }
 
 }
