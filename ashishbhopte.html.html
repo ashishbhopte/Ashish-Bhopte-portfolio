@@ -247,8 +247,14 @@
     e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
       .then(response => {
-      
+
+       var screenWidth = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
+       if (screenWidth <= 700) {
+         msg.innerHTML ="Message has delivered, Have a great day:)!"
+       }
+       else{
        msg.innerHTML = "Thank you for reaching out. I appreciate your message, and I will respond to you shortly. Wishing you a wonderful day :) !"
+       }
        setTimeout(function(){
          msg.innerHTML = ""
        },9000)
