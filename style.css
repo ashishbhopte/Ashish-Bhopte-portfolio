@@ -366,8 +366,13 @@ color: white;
 
 
 .contant-left-p{
-
 margin-top:50px;
+
+}
+
+.contant-left-p .mail,.call{
+color: #FFFFFF;
+text-decoration:none;
 }
 
 .contant-right form{
@@ -419,9 +424,7 @@ display:none;
  .header-text h1 span{
   font-size:30px;
  }
- #top-image{
 
- }
  .header-text{
   width:0%;
   margin-top:200px;
@@ -430,7 +433,7 @@ display:none;
     background repeat: no-repeat;
     display:block;
     background-image: url(images/small-top.png);
-    height:480px;
+    height:475px;
     width:800px;
     margin-top:100px;
     margin-right:-10px;
