@@ -402,7 +402,7 @@ color: #04FF60;
 display:block;
 }
 
-/*-------------------------- css for small screen, mobile compitable ------------------*/
+/*--------------------------   css for small screen, mobile compitable ------------------*/
 
 nav .fa-solid{ /*this is to hide mid photo*/
 display:none;
