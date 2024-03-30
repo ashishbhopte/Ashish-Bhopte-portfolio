@@ -408,6 +408,8 @@ nav .fa-solid{ /*this is to hide mid photo*/
 display:none;
 }
 
+/*This is for navigation smaill screen */
+
 @media only screen and (max-width: 600px){
    nav ul li a{
     font-size: 20px;
@@ -536,6 +538,5 @@ margin-top:-95px;
 padding-bottom:0px;
 margin-bottom: 0px;
 }
-
 
 }
